@@ -1,0 +1,34 @@
+# Compile of L1_splitcache.sv was successful.
+vsim -gui work.SplitL1Cache
+# vsim -gui work.SplitL1Cache 
+# Start time: 23:48:25 on Mar 15,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.SplitL1Cache(fast)
+run -all
+# Read from L2 address               32'h00408ed4
+# Read from L2 address               32'h10019d94
+# Read from L2 address               32'h10013220
+# Read for ownership from L2         32'h100230b8
+# Write to L2 address                32'h10013220
+# Read for ownership from L2         32'h100230c0
+# Read from L2 address               32'h00408f00
+# Read from L2 address               32'h7ffd8bec
+# Read from L2 address               32'h00408f40
+# ------------------------------------- INSTRUCTION  CACHE STATSITICS ----------------------------------------------------------
+# Instruction Cache Reads      =          47 
+#  Instruction Cache Misses    =           3 
+#  Instruction Cache Hits      =          44 
+#  Instruction Cache Hit Ratio   =  93.617021 
+# 
+# ------------------------------------- DATA  CACHE  STATSITICS -----------------------------------------------------------------
+# Data Cache Reads     =            5
+#  Data Cache Writes    =           9
+#  Data Cache Hits      =           9 
+#  Data Cache Misses    =           5 
+#  Data Cache Hit Ratio =   64.285714
+# 
+# ** Note: $finish    : //thoth.cecs.pdx.edu/Home02/prapanch/Desktop/MSD_Project/trail_2/MSD_final/L1_splitcache.sv(110)
+#    Time: 0 ns  Iteration: 0  Instance: /SplitL1Cache
+# 1
+# Break at //thoth.cecs.pdx.edu/Home02/prapanch/Desktop/MSD_Project/trail_2/MSD_final/L1_splitcache.sv line 110
